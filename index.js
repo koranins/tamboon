@@ -53,7 +53,10 @@ async function main() {
   failedResults.forEach(result => {
     console.log('-', result.name, `฿${result.amount / 100}`);
   });
-  console.log('Average amount per person:', `฿${totalDonations / successResults.length}`);
+  console.log(
+    'Average amount per person:',
+    `฿${successResults.length === 0 ? 0 : totalDonations / successResults.length / 100}`
+  );
   console.log('Top 2 donators:')
   successResults.slice(0, 2).forEach(result => {
     console.log('-', result.name, `฿${result.amount / 100}`);
