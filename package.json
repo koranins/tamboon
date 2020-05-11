@@ -1,0 +1,14 @@
+{
+  "name": "tamboon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csv-parser": "^2.3.2",
+    "querystring": "^0.2.0"
+  }
+}

@@ -1,0 +1,5 @@
+name,card_number,card_exp_month,card_exp_year,card_city,card_postal_code,card_security_code,amount
+Elon Musk,4916656966611257,10,2022,Fremont,45500,123,200000
+Bill Gate,4661458022690251,10,2022,Redmond,98008,123,1500000
+Lebron James,1232424242424242,10,2022,Omaha,68007,123,20000
+Warren Buffett,4242424242424242,10,2022,Omaha,68007,123,20000
